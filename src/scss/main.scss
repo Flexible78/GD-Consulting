@@ -9,6 +9,9 @@
 @import "./base/global";
 
 // ------------------ COMPONENTS
+@import "./components/titles";
+@import "./components/buttons";
 
 // ------------------ SECTIONS
-@import "./components/header.scss";
+@import "./components/header";
+@import "./components/hero";

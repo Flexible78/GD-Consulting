@@ -1,12 +1,13 @@
 .header {
-   padding: 51px 16px 31px 16px;
+   padding: 51px 16px 31px;
    background-color: var(--white);
 }
+
 :root {
    --font-size: 20px;
    --line-height: 28px;
+
    color: var(--black);
-   --font-size: 20px;
 }
 
 .header__container {
