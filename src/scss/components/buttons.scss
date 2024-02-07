@@ -6,4 +6,13 @@
    line-height: 1.4;
    background: var(--White, #fff);
    transition: all 0.16s ease;
+
+   &--p17 {
+      padding: 17px 32px;
+   }
+
+   &--p25 {
+      border-radius: 64px;
+      padding: 25px 0;
+   }
 }

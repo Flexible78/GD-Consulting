@@ -1,5 +1,5 @@
 .header {
-   padding: 51px 16px 31px;
+   padding: 40px 0 20px;
    background-color: var(--white);
 }
 
@@ -11,17 +11,28 @@
 }
 
 .header__container {
-   display: flex;
+   display: grid;
+   grid-template-columns: repeat(12, 1fr);
+   column-gap: 24px;
    align-items: center;
 }
 
-.logo {
-   margin-right: 594px;
+.header__logo {
+   grid-column: 3 span;
 }
 
-ul {
+.logo__img {
+   padding: 11px 16px;
+}
+
+.header__nav {
+   justify-self: end;
+   grid-column: 9 span;
+   padding: 16px;
+}
+
+.header__menu {
    display: flex;
    column-gap: 40px;
    align-items: center;
-   justify-content: start;
 }
