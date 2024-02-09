@@ -1,3 +1,45 @@
 .benefits {
    padding: 120px 0 80px;
 }
+
+.benefits__container {
+   position: relative;
+   display: grid;
+   grid-template-columns: repeat(12, 1fr);
+   column-gap: 24px;
+   align-items: center;
+   justify-content: center;
+   justify-self: self-start;
+   text-align: left;
+}
+
+.benefits__title {
+   grid-column: 5 span;
+}
+
+.benefits__cards {
+}
+
+.benefits-card {
+}
+
+.benefits-cards-list {
+}
+
+.benefits-cards-list__item {
+}
+
+.benefits-cards-list__img {
+}
+
+.benefits-cards-list__card-title {
+}
+
+.title {
+}
+
+.benefits-cards-list__card-text {
+}
+
+.benefits-cards-list-img {
+}

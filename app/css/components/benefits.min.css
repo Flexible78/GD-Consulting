@@ -1,2 +1,2 @@
-.benefits{padding:120px 0 80px}
+.benefits{padding:120px 0 80px}.benefits__container{position:relative;display:grid;grid-template-columns:repeat(12,1fr);-moz-column-gap:24px;column-gap:24px;align-items:center;justify-content:center;justify-self:self-start;text-align:left}.benefits__title{grid-column:5 span}
 /*# sourceMappingURL=benefits.min.css.map */
