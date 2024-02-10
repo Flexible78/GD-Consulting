@@ -9,11 +9,14 @@
 @import "./base/global";
 
 // ------------------ COMPONENTS
-@import "./components/titles";
-@import "./components/buttons";
+@import "components/titles";
+@import "components/buttons";
+@import "components/activity-card";
+@import "components/activities-list";
 
 // ------------------ SECTIONS
-@import "./components/header";
-@import "./components/hero";
-@import "./components/mission";
-@import "./components/benefits";
+@import "components/header";
+@import "components/hero";
+@import "components/mission";
+@import "components/benefits";
+@import "components/services";
