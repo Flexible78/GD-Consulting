@@ -1,29 +1,29 @@
-.benefits {
-   padding: 86px 0 80px;
+.experience {
+   padding: 68px 0 80px;
 }
 
-.benefits__title {
+.experience__title {
    margin-bottom: 78px;
    padding-left: 50px;
 }
 
-.benefits__button-wrapper {
+.experience__button-wrapper {
    display: flex;
    align-items: center;
    justify-content: center;
 }
 
-.benefits__button {
+.experience__button {
    display: flex;
    flex-direction: row;
    column-gap: 12px;
-   margin-top: 80px;
+   margin-top: 133px;
    padding-right: 48px;
    padding-left: 48px;
    cursor: pointer;
 }
 
-.benefits__button--icon {
+.experience__button--icon {
    width: 32px;
    height: 32px;
    stroke: var(--black);
