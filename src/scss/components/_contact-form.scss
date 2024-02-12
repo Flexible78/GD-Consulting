@@ -18,10 +18,51 @@
    width: 82px;
    height: 80px;
 }
+
 .contact-form__disk-img {
    position: absolute;
    top: 89.3%;
    left: -15.9%;
    width: 174px;
    height: 226px;
+}
+
+.contact-form__wrapper {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+
+.application-form {
+   display: flex;
+   flex-direction: column;
+   row-gap: 32px;
+   max-width: 703px;
+   text-align: center;
+
+   select {
+      appearance: none;
+      background: transparent;
+      background: url("@img/select-arrow.png");
+      background-position-x: 95%;
+      background-position-y: 50%;
+      background-repeat: no-repeat;
+   }
+}
+
+.application-form__capture {
+   border: 1px solid var(--mid-grey);
+   border-radius: 40px;
+   padding: 23px 32px;
+   background: var(--white);
+   color: var(--mid-grey);
+   font-size: 22px;
+}
+
+.application-form__button {
+   border-radius: 40px;
+   padding: 25px 323px 27px 332px;
+   font-weight: 500;
+   color: var(--white);
+   background: var(--black);
 }
