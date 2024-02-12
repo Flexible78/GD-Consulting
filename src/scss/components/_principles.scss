@@ -53,15 +53,10 @@
 }
 
 .principles__button {
-   /* margin-top: 88px; */
    border: 2px solid var(--black);
    border-radius: 48px;
    padding: 14px 29px;
-   background: #ebf3ff;
-
-   /* &--light {
-      margin-top: 128px;
-   } */
+   background-color: var(--white);
 }
 
 .principles__button--img {
