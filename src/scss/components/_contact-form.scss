@@ -1,5 +1,5 @@
 .contact-form {
-   padding: 175px 0 80px;
+   padding: 175px 0 55px;
 }
 
 .contact-form__container {
@@ -13,16 +13,16 @@
 
 .contact-form__stars-img {
    position: absolute;
-   top: -25.3%;
-   right: 26.9%;
+   top: -6.3%;
+   right: 10.7%;
    width: 82px;
    height: 80px;
 }
 
 .contact-form__disk-img {
    position: absolute;
-   top: 89.3%;
-   left: -15.9%;
+   top: 23.3%;
+   left: 1%;
    width: 174px;
    height: 226px;
 }
@@ -36,13 +36,13 @@
 .application-form {
    display: flex;
    flex-direction: column;
-   row-gap: 32px;
+   row-gap: 40px;
    max-width: 703px;
+   padding: 40px 0;
    text-align: center;
 
    select {
       appearance: none;
-      background: transparent;
       background: url("@img/select-arrow.png");
       background-position-x: 95%;
       background-position-y: 50%;
@@ -54,9 +54,9 @@
    border: 1px solid var(--mid-grey);
    border-radius: 40px;
    padding: 23px 32px;
-   background: var(--white);
-   color: var(--mid-grey);
    font-size: 22px;
+   color: var(--mid-grey);
+   background: var(--white);
 }
 
 .application-form__button {

@@ -15,4 +15,28 @@
       border-radius: 64px;
       padding: 25px 0;
    }
+
+   &--green {
+      border: none;
+      padding-right: 41px;
+      padding-bottom: 27px;
+      padding-left: 41px;
+      background: #71cf5b;
+   }
+
+   &--blue {
+      border: none;
+      padding-right: 48px;
+      padding-bottom: 27px;
+      padding-left: 48px;
+      background: #53aae3;
+   }
+
+   &--grey {
+      border: none;
+      padding-right: 66px;
+      padding-bottom: 27px;
+      padding-left: 66px;
+      background: var(--light-grey);
+   }
 }
