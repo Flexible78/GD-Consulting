@@ -1,11 +1,13 @@
 .contacts {
-   padding-bottom: 200px;
+   padding-bottom: 186px;
 }
-.contacts__container{
+
+.contacts__container {
    display: flex;
    flex-direction: column;
    row-gap: 85px;
 }
+
 .contacts__bg-img {
    width: 2560px;
    height: 350px;
@@ -34,18 +36,19 @@
 }
 
 .buttons-block__btn {
-   color: var(--white);
    display: flex;
    column-gap: 12px;
    align-items: center;
    font-weight: 500;
    font-size: 22px;
    line-height: 1.27;
+   color: var(--white);
 }
+
 .contacts__descr {
-   text-align: center;
    max-width: 813px;
    margin: 0 auto;
    font-size: 26px;
    line-height: 1.538;
+   text-align: center;
 }
