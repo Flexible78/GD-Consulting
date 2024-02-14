@@ -1,11 +1,11 @@
 .contacts {
-   padding-bottom: 188px;
+   padding-bottom: 211px;
 }
 
 .contacts__container {
    display: flex;
    flex-direction: column;
-   row-gap: 85px;
+   row-gap: 91px;
 }
 
 .contacts__bg-img {
@@ -47,7 +47,7 @@
 
 .contacts__descr {
    max-width: 813px;
-   margin: 0 auto;
+   margin: -14px auto;
    font-size: 26px;
    line-height: 1.538;
    text-align: center;

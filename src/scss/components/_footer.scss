@@ -1,5 +1,5 @@
 .footer {
-   padding: 100px;
+   padding: 99px 0;
    color: var(--white);
    background: var(--black);
 }
@@ -15,7 +15,7 @@
       content: "";
       position: absolute;
       bottom: 37%;
-      left: 0;
+      left: 1%;
       width: 1720px;
       height: 1px;
       background-color: var(--light-grey);
