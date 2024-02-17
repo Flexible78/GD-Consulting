@@ -24,10 +24,8 @@
    background-size: auto;
    background-repeat: no-repeat;
    background-color: #f6f6f6;
-   aspect-ratio: 1 / 1;
 
    @media (max-width: 1650px) {
-      aspect-ratio: calc(0.8 / 0.8);
    }
 
    /*
