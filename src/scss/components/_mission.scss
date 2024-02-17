@@ -2,6 +2,10 @@
    position: relative;
    padding-top: 312px;
    padding-bottom: 251px;
+
+   @media (max-width: 1200px) {
+      padding-top: 158px;
+   }
 }
 
 .mission__container {
@@ -25,6 +29,10 @@
       line-height: 1.538;
       text-align: center;
       color: var(--black, #000);
+   }
+
+   @media (max-width: 1200px) {
+      grid-column: 1 / -1;
    }
 }
 

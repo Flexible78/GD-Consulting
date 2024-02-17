@@ -10,10 +10,15 @@
 
    &--fz120 {
       --font-size: 120px;
-      --line-height: 130px;
+      --line-height: 1.083;
 
       font-weight: 500;
       letter-spacing: normal;
+
+      @media (max-width: 1200px) {
+         --font-size: 80px;
+         --line-height: 1.4;
+      }
    }
 
    &--fz72 {
