@@ -21,13 +21,16 @@
    line-height: 1.4;
    background-image: url("@img/hero.png");
    background-position: 436px 95px;
+   background-size: auto;
    background-repeat: no-repeat;
    background-color: #f6f6f6;
+   aspect-ratio: 1 / 1;
 
    @media (max-width: 1650px) {
-      background-position: 226px 185px;
-      background-size: 64% 64%;
+      aspect-ratio: calc(0.8 / 0.8);
    }
+
+   /*
    @media (max-width: 1460px) {
       background-position: 226px 185px;
       background-size: 64% 52%;
@@ -39,7 +42,7 @@
    @media (max-width: 1130px) {
       background-position: 272px 184px;
       background-size: 52% 52%;
-   }
+   } */
 }
 
 .hero__title {
