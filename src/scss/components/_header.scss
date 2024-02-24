@@ -11,7 +11,7 @@
    }
 
    @media (max-width: 640px) {
-      padding: unset;
+      padding: 0 0 30px;
    }
 }
 
@@ -30,6 +30,10 @@
 
    @media (max-width: 640px) {
       column-gap: 0;
+   }
+
+   @media (max-width: 330px) {
+      padding-top: 20px;
    }
 }
 
@@ -53,13 +57,12 @@
    }
 
    @media (max-width: 1024px) {
-      padding: 0 28px 54px 0;
+      padding: 0 28px 0 0;
    }
 
-   @media (max-width: 330px) {
-      /* padding: 15px 11px 14px 0; */
-      padding: 0 28px 54px 0;
-   }
+  /*  @media (max-width: 330px) {
+      padding-bottom: 49px;
+   } */
 }
 
 .header__nav {

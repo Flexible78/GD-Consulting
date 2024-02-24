@@ -87,22 +87,39 @@
    &::after {
       content: "";
       position: absolute;
-      top: 17%;
+      top: 21%;
       bottom: 0;
       left: 50%;
       height: 320px;
       border-left: 1px solid #a0a8b5;
 
+      @media (max-width: 1024px) {
+         top: 25%;
+         height: 320px;
+         padding-top: 58px;
+      }
+      @media (max-width: 530px) {
+         left: 24%;
+         top: 62.4%;
+         height: 300px;
+         rotate: (90deg);
+      }
+
       @media (max-width: 330px) {
-         grid-column: 8 span;
-         top: 43%;
+         left: 50%;
+         top: 62.4%;
          height: 300px;
          rotate: (90deg);
       }
    }
 
-   @media (max-width: 330px) {
+   @media (max-width: 1024px) {
+      padding-top: 58px;
+   }
+
+   @media (max-width: 520px) {
       grid-column: 1 /-1;
+      padding-top: 49px;
    }
 }
 
@@ -110,7 +127,7 @@
    justify-self: center;
    grid-column: 7 / 13;
 
-   @media (max-width: 330px) {
+   @media (max-width: 520px) {
       justify-self: start;
       grid-column: 1 /-1;
    }
@@ -124,7 +141,11 @@
    line-height: 1.6;
    animation: burgerAnimation 1.7s;
 
-   @media (max-width: 330px) {
+   @media (max-width: 1024px) {
+      padding-top: 58px;
+   }
+
+   @media (max-width: 520px) {
       padding-top: 82px;
       padding-left: 0;
    }
@@ -135,6 +156,10 @@
    column-gap: 20px;
    align-items: center;
    justify-content: flex-start;
+
+   @media (max-width: 330px) {
+      column-gap: 22px;
+   }
 }
 
 .burger-contacts__icon {
