@@ -51,7 +51,16 @@
    @media (max-width: 640px) {
       z-index: 22;
       grid-column: 1 / -1;
-      margin-right: 0;
+      margin-right: unset;
+      border-radius: unset;
+      padding: 33px 0 0;
+      background-image: none;
+   }
+
+   @media (max-width: 330px) {
+      z-index: 22;
+      grid-column: 1 / -1;
+      margin-right: unset;
       border-radius: unset;
       padding: 33px 0 0;
       background-image: none;
@@ -72,10 +81,16 @@
    max-width: 900px;
 
    @media (max-width: 640px) {
-      grid-column: 2/12;
       font-size: 37px;
       line-height: 1.32;
       text-align: center;
+   }
+
+   @media (max-width: 330px) {
+      max-width: 230px;
+      margin: 0 auto;
+      font-size: 34px;
+      line-height: normal;
    }
 }
 
@@ -93,6 +108,13 @@
       max-width: 300px;
       margin: 21px auto 0;
       font-size: 18px;
+      text-align: center;
+   }
+
+   @media (max-width: 330px) {
+      max-width: 260px;
+      margin: 15px auto 0;
+      font-size: 16px;
       text-align: center;
    }
 }
@@ -135,6 +157,7 @@
    @media (max-width: 330px) {
       width: 309px;
       height: 300px;
+      transform: translate(10%, 0%);
    }
 }
 
@@ -153,6 +176,10 @@
       flex-direction: column;
       grid-column: 1 / -1;
       margin-left: 0;
+   }
+
+   @media (max-width: 330px) {
+      margin-top: 30px;
    }
 }
 
@@ -186,12 +213,16 @@
       order: 2;
    }
 
+   @media (max-width: 330px) {
+      order: unset;
+   }
+
    @media (max-width: 1200px) {
       padding: 34.5px 23px;
    }
 
    @media (max-width: 640px) {
-      padding: 30.2px 23px;
+      padding: 27.2px 23px;
    }
 }
 
@@ -251,7 +282,7 @@
 
    @media (max-width: 640px) {
       order: 3;
-      padding-left: 54px;
+      padding: 36.2px 0 40px 31.2px;
    }
 }
 
@@ -273,9 +304,8 @@
    gap: 67px;
    align-items: flex-start;
    margin-top: 19px;
-   margin-bottom: 24px;
    border-radius: 48px 48px 48px 0;
-   padding: 56px 48px 48px;
+   padding: 56px 48px 47px;
    background: #465976;
 
    @media (max-width: 1200px) {
@@ -296,6 +326,12 @@
       padding: 30px;
       line-height: 1.3;
    }
+
+   @media (max-width: 330px) {
+      flex-direction: column;
+      gap: 30px;
+      padding: 30px 55px 30px 30px;
+   }
 }
 
 .hero__contact-block--header {
@@ -314,6 +350,10 @@
       font-size: 30px;
       line-height: unset;
    }
+
+   @media (max-width: 330px) {
+      max-width: unset;
+   }
 }
 
 .hero__contact-block--button {
@@ -322,12 +362,17 @@
    align-items: center;
 
    @media (max-width: 1200px) {
-      padding: 15px 31px 11px 35px;
+      padding: 13px 33px 12px 30px;
    }
 
    @media (max-width: 640px) {
       margin-bottom: 11.5px;
       padding: 14px 32px;
+   }
+
+   @media (max-width: 330px) {
+      margin-bottom: unset;
+      padding: 14px 31px;
    }
 }
 
