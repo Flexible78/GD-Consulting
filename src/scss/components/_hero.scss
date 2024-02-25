@@ -54,6 +54,8 @@
       grid-column: 1 / -1;
       border-radius: unset;
       background-image: none;
+      padding: 33px 0 30px 19px;
+
    }
 
    @media (max-width: 1635px) {
@@ -73,7 +75,7 @@
    @media (max-width: 640px) {
       grid-column: 2/12;
       font-size: 37px;
-      line-height: unset;
+      line-height: 1.32;
       text-align: center;
    }
 }
@@ -151,6 +153,7 @@
       display: flex;
       flex-direction: column;
       grid-column: 1 / -1;
+      background: var(--white);
    }
 }
 
