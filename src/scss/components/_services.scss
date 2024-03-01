@@ -1,10 +1,22 @@
 .services {
-   padding: 112px 0 40px;
+   padding: 49px 0 40px;
+
+   @media (max-width: 1200px) {
+      padding: 46px 0 40px;
+   }
+}
+
+.services__container {
+
 }
 
 .services__title {
-   margin-bottom: 80px;
+   padding: 80px 0;
    padding-left: 48px;
+
+   @media (max-width: 1200px) {
+      padding-left: 30px;
+   }
 }
 
 .services__card-title {
@@ -12,18 +24,43 @@
 }
 
 .services__card {
-   display: flex;
+   display: grid;
+   grid-template-columns: repeat(12, 1fr);
    column-gap: 24px;
    padding: 80px 0;
+
+   @media (max-width: 1200px) {
+      grid-template-columns: repeat(11, 1fr);
+      padding: 17px 0;
+   }
 }
 
 .services__card-img {
+   grid-column: 5 span;
    width: 703px;
    height: 532px;
+
+   .svg {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      object-position: center;
+   }
+
+   @media (max-width: 1200px) {
+      height: 566px;
+      width: 544px;
+   }
 }
 
 .services__card-descr {
+   grid-column: 6 span;
    padding: 0 112px;
+
+   @media (max-width: 1200px) {
+      grid-column: 5 span;
+      padding: 0 0 0 65px;
+   }
 }
 
 .services__card-list {

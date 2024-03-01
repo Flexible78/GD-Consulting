@@ -1,16 +1,47 @@
 .benefits {
    padding: 86px 0 80px;
+
+   @media (max-width: 1200px) {
+      padding: 110px 0 80px;
+   }
+
+   @media (max-width: 850px) {
+      padding: 88px 0 80px;
+   }
+
+   @media (max-width: 350px) {
+      padding: 36px 0 80px;
+   }
 }
 
 .benefits__title {
    margin-bottom: 78px;
    padding-left: 50px;
+
+   @media (max-width: 1200px) {
+      margin-bottom: 30px;
+      padding-left: 31px;
+   }
+
+   @media (max-width: 850px) {
+      padding-left: 0;
+      font-size: 37px;
+      line-height: normal;
+   }
+
+   @media (max-width: 350px) {
+      font-size: 34px;
+   }
 }
 
 .benefits__button-wrapper {
    display: flex;
    align-items: center;
    justify-content: center;
+
+   @media (max-width: 850px) {
+      display: block;
+   }
 }
 
 .benefits__button {
@@ -18,12 +49,30 @@
    flex-direction: row;
    column-gap: 12px;
    margin-top: 80px;
+   padding: 17px 0;
    padding-right: 43px;
    padding-left: 43px;
-   cursor: pointer;
-   font-size: 20px;
    font-weight: 500;
+   font-size: 20px;
    line-height: 1.4;
+   cursor: pointer;
+
+   @media (max-width: 1200px) {
+      margin-top: 24px;
+   }
+
+   @media (max-width: 850px) {
+      column-gap: 12px;
+      justify-content: center;
+      margin-top: 13px;
+      font-size: 18px;
+      line-height: 1.555;
+   }
+
+   @media (max-width: 350px) {
+      margin-top: 11px;
+      padding: 17px 30px 15px;
+   }
 }
 
 .benefits__button--icon {
