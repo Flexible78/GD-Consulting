@@ -3,10 +3,6 @@
    padding: 48px 0 48px 83px;
    background-color: var(--white);
 
-   @media (max-width: 850px) {
-      padding: 0px 0 0px;
-   }
-
    .activity-card__img {
       width: 190px;
       height: 155px;
@@ -17,26 +13,35 @@
       }
 
       @media (max-width: 1200px) {
-         width: 151px;
-         height: 130px;
+         width: 153px;
+         height: 150px;
       }
 
       @media (max-width: 850px) {
          width: 113px;
          height: 92px;
-      }@media (max-width: 350px) {
-      margin: 9px auto;
+      }
+
+      @media (max-width: 350px) {
+         margin: 9px auto;
       }
    }
 
    .activity-card__title {
       margin-top: 49px;
+
+      @media (max-width: 1200px) {
+         margin-top: 46px;
+      }
+
       @media (max-width: 850px) {
          margin-top: 23px;
          font-size: 22px;
          line-height: normal;
          letter-spacing: 0.44px;
-      } @media (max-width: 350px) {
+      }
+
+      @media (max-width: 350px) {
          margin-top: 21px;
       }
    }
@@ -48,18 +53,32 @@
       line-height: 1.545;
 
       @media (max-width: 850px) {
-         margin-top: 21px;
          max-width: unset;
+         margin-top: 21px;
+         margin-bottom: 32px;
          font-size: 18px;
          line-height: 1.6;
-         margin-bottom: 32px;
-      }@media (max-width: 850px) {
-         margin-top: 16px;
+      }
+
+      @media (max-width: 1200px) {
+         margin-top: 27px;
+      }
+
+      /*  @media (max-width: 850px) {
          max-width: unset;
+         margin-top: 16px;
+         margin-bottom: 40px;
          font-size: 16px;
          line-height: 1.6;
-         margin-bottom: 40px;
-      }
+      } */
+   }
+
+   @media (max-width: 1200px) {
+      padding: 57px 0 48px 83px;
+   }
+
+   @media (max-width: 850px) {
+      padding: 0;
    }
 
    @media (max-width: 850px) {
@@ -67,6 +86,6 @@
    }
 
    @media (max-width: 1200px) {
-      padding: 64px 0 48px;
+      padding: 52px 0 48px;
    }
 }

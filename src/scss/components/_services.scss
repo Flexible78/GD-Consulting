@@ -35,6 +35,17 @@
    }
 }
 
+.services__container .services__card:nth-of-type(2) {
+       @media (max-width: 1200px) {
+          grid-template-columns: repeat(11, 1fr);
+          padding: 75px 0 0 0;
+       }
+       .services__card-descr {
+          grid-column: 6 span;
+          padding: 0 0 0 0px;
+       }
+}
+
 .services__card-img {
    grid-column: 5 span;
    width: 703px;
@@ -48,18 +59,18 @@
    }
 
    @media (max-width: 1200px) {
-      height: 566px;
       width: 544px;
+      height: 566px;
    }
 }
 
 .services__card-descr {
    grid-column: 6 span;
-   padding: 0 112px;
+   padding: 0 100px 0 112px;
 
    @media (max-width: 1200px) {
-      grid-column: 5 span;
-      padding: 0 0 0 65px;
+      grid-column: 6 span;
+      padding: 0 0 0 23px;
    }
 }
 
