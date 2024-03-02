@@ -12,9 +12,10 @@
    &--p17 {
       padding: 17px 32px;
 
-      @media (max-width: 330px) {
+      @media (max-width: 640px) {
          font-size: 18px;
          line-height: 1.55;
+         padding: 17px 0;
       }
    }
 
