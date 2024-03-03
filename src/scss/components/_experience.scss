@@ -4,6 +4,10 @@
    @media (max-width: 1200px) {
       padding-top: 47px;
    }
+
+   @media (max-width: 330px) {
+      padding-top: 0;
+   }
 }
 
 .experience__title {
@@ -13,6 +17,16 @@
    @media (max-width: 1200px) {
       margin-bottom: unset;
       padding: 55px 0 50px 32px;
+   }
+
+   @media (max-width: 660px) {
+      padding: 26px 0 35px;
+      font-size: 37px;
+   }
+
+   @media (max-width: 330px) {
+      padding: 26px 0 35px;
+      font-size: 34px;
    }
 }
 
@@ -36,6 +50,13 @@
 
    @media (max-width: 1200px) {
       margin-top: 54px;
+   }
+
+   @media (max-width: 330px) {
+      margin-top: 22px;
+      padding: 17px 30px 19px 35px;
+      font-size: 18px;
+      line-height: 1.55;
    }
 }
 

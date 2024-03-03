@@ -17,6 +17,9 @@
          line-height: 1.55;
          padding: 17px 0;
       }
+      @media (max-width: 330px) {
+         padding: 14px 0 17px;
+      }
    }
 
    &--p25 {

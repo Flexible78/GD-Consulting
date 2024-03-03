@@ -52,9 +52,23 @@
       font-size: 22px;
       line-height: 1.545;
 
+      @media (max-width: 640px) {
+         padding: 17px 0;
+         font-size: 18px;
+         margin-bottom: 22.7px;
+         line-height: 1.55;
+      }
+
+      @media (max-width: 330px) {
+         margin-top: 0;
+         margin-bottom: 22.7px;
+         font-size: 16px;
+         line-height: 1.6;
+      }
+
       @media (max-width: 850px) {
          max-width: unset;
-         margin-top: 21px;
+         margin-top: 0;
          margin-bottom: 32px;
          font-size: 18px;
          line-height: 1.6;
