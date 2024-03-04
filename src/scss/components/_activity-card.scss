@@ -20,6 +20,7 @@
       @media (max-width: 850px) {
          width: 113px;
          height: 92px;
+         transform: translateX(-10px);
       }
 
       @media (max-width: 350px) {
@@ -53,9 +54,9 @@
       line-height: 1.545;
 
       @media (max-width: 640px) {
+         margin-bottom: 22.7px;
          padding: 17px 0;
          font-size: 18px;
-         margin-bottom: 22.7px;
          line-height: 1.55;
       }
 

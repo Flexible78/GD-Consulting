@@ -13,10 +13,11 @@
       padding: 17px 32px;
 
       @media (max-width: 640px) {
+         padding: 17px 0;
          font-size: 18px;
          line-height: 1.55;
-         padding: 17px 0;
       }
+
       @media (max-width: 330px) {
          padding: 14px 0 17px;
       }
@@ -25,6 +26,10 @@
    &--p25 {
       border-radius: 64px;
       padding: 25px 0;
+
+      @media (max-width: 640px) {
+         padding: 17px 30%;
+      }
    }
 
    &--green {
