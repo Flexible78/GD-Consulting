@@ -40,6 +40,10 @@
          font-size: 37px;
          line-height: normal;
       }
+      @media (max-width: 510px) {
+         font-size: 34px;
+         line-height: normal;
+      }
    }
 
    &--fz50 {
