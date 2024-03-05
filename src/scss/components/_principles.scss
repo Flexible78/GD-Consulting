@@ -1,5 +1,13 @@
 .principles {
    padding: 252px 0 80px;
+
+   @media (max-width: 1200px) {
+      padding: 236px 0 80px;
+   }
+
+   @media (max-width: 980px) {
+      padding: 0 0 80px;
+   }
 }
 
 .principles__container {
@@ -8,6 +16,16 @@
    grid-auto-rows: 441px;
    grid-template-columns: repeat(12, 1fr);
    grid-template-rows: repeat(auto-fill, minmax(441px, 1fr));
+
+   @media (max-width: 1200px) {
+      grid-auto-rows: 410px;
+      grid-template-rows: repeat(auto-fill, minmax(410px, 1fr));
+   }
+
+   @media (max-width: 980px) {
+      grid-auto-rows: 222px;
+      grid-template-columns: 1fr; /* Устанавливаем одну колонку */
+   }
 }
 
 .principles__img {
@@ -16,6 +34,15 @@
    left: 3.5%;
    width: 116px;
    height: 106px;
+
+   @media (max-width: 1200px) {
+      top: -14%;
+      left: 5.5%;
+   }
+
+   @media (max-width: 980px) {
+      display: none;
+   }
 }
 
 .principles__title {
@@ -24,11 +51,22 @@
    margin-top: 49px;
    padding-left: 48px;
    text-align: left;
+
+   @media (max-width: 1200px) {
+      margin-top: 49px;
+      padding-left: 30px;
+   }
+
+   @media (max-width: 980px) {
+      margin-top: 15px;
+      padding-left: 0px;
+      line-height: normal;
+   }
 }
 
-.principles__cards-block {
+/* .principles__cards-block {
    margin-top: 80px;
-}
+} */
 
 .principles__card {
    display: flex;
@@ -45,18 +83,37 @@
    &--light {
       background: #f6f6f6;
    }
+
+   @media (max-width: 1200px) {
+      padding: 30px;
+
+      /*  padding: 38px 40px 35px; */
+   }
 }
 
 .principles__card--text {
    font-size: 26px;
    line-height: 1.534;
+
+   @media (max-width: 980px) {
+      font-size: 22px;
+      line-height: normal;
+      letter-spacing: 0.44px;
+   }
 }
 
 .principles__button {
+   /*
    border: 2px solid var(--black);
+   */
+   border: none;
    border-radius: 48px;
    padding: 14px 29px;
    background-color: var(--white);
+
+   @media (max-width: 980px) {
+      padding: 3px 13px;
+   }
 }
 
 .principles__button--img {

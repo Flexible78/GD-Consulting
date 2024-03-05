@@ -35,6 +35,11 @@
 
       font-weight: 500;
       letter-spacing: normal;
+
+      @media (max-width: 980px) {
+         font-size: 37px;
+         line-height: normal;
+      }
    }
 
    &--fz50 {
