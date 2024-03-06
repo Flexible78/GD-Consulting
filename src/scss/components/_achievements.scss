@@ -16,6 +16,20 @@
       font-size: 26px;
       line-height: 1.54;
       text-align: left;
+
+      @media (max-width: 1200px) {
+         grid-column: 1 /-1;
+         padding: 0 30px;
+      }
+
+      @media (max-width: 640px) {
+         font-size: 18px;
+         line-height: 1.6;
+      }
+
+      @media (max-width: 330px) {
+         font-size: 16px;
+      }
    }
 
    p:nth-of-type(2) {
@@ -26,6 +40,16 @@
 .achievements__bg-img {
    width: 2440px;
    height: 353px;
+
+   @media (max-width: 1200px) {
+      padding: 0 116px 25px 0;
+   }
+
+   @media (max-width: 640px) {
+      width: 1141.443px;
+      height: 165px;
+      transform: translateY(-77px) scale(2.7) translateX(105px);
+   }
 }
 
 .achievements__main-img {
@@ -34,10 +58,27 @@
    width: 225px;
    height: 183px;
    margin-top: 100px;
+
+   @media (max-width: 1200px) {
+      margin-top: 80px;
+   }
+
+   @media (max-width: 640px) {
+      width: 133px;
+      height: 108px;
+      margin-top: 40px;
+   }
 }
 
 .achievements__title {
    grid-column: 12 span;
    margin-top: 205px;
    text-align: center;
+
+   @media (max-width: 1200px) {
+      margin-top: 110px;
+   }
+   @media (max-width: 640px) {
+      margin-top: -43px;
+   }
 }
