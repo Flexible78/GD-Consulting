@@ -1,5 +1,13 @@
 .contact-form {
    padding: 175px 0 55px;
+
+   @media (max-width: 1200px) {
+      padding: 81px 0 55px;
+   }
+
+   @media (max-width: 980px) {
+      padding: 19px 0 55px;
+   }
 }
 
 .contact-form__container {
@@ -9,6 +17,10 @@
 .contact-form__title {
    padding: 80px;
    text-align: center;
+
+   @media (max-width: 980px) {
+      padding: 80px 0 33px;
+   }
 }
 
 .contact-form__stars-img {
@@ -17,6 +29,15 @@
    right: 10.7%;
    width: 82px;
    height: 80px;
+
+   @media (max-width: 1200px) {
+      top: 1.7%;
+      right: 5.4%;
+   }
+
+   @media (max-width: 980px) {
+      display: none;
+   }
 }
 
 .contact-form__disk-img {
@@ -25,6 +46,17 @@
    left: 1%;
    width: 174px;
    height: 226px;
+
+   @media (max-width: 1200px) {
+      top: 42.5%;
+      left: -2%;
+      width: 132px;
+      height: 207px;
+   }
+
+   @media (max-width: 980px) {
+      display: none;
+   }
 }
 
 .contact-form__wrapper {
@@ -48,6 +80,16 @@
       background-position-y: 50%;
       background-repeat: no-repeat;
    }
+
+   @media (max-width: 980px) {
+      display: flex;
+      row-gap: 20px;
+      width: 100%;
+   }
+
+   @media (max-width: 1200px) {
+      padding: 11px 0;
+   }
 }
 
 .application-form__capture {
@@ -57,6 +99,17 @@
    font-size: 22px;
    color: var(--mid-grey);
    background: var(--white);
+
+   @media (max-width: 980px) {
+      font-size: 18px;
+      line-height: 1.55;
+   }
+}
+
+.application-form__capture--additional {
+   @media (max-width: 980px) {
+      border-radius: 28px;
+   }
 }
 
 .application-form__button {
@@ -65,4 +118,9 @@
    font-weight: 500;
    color: var(--white);
    background: var(--black);
+
+   @media (max-width: 980px) {
+      margin-top: 15px;
+      padding: 25px 0;
+   }
 }
