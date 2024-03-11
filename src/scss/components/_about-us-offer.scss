@@ -1,0 +1,165 @@
+.about-offer {
+   padding: 120px 0 80px;
+
+   @media (max-width: 1400px) {
+      padding: 70px 0 100px;
+   }
+
+   @media (max-width: 1024px) {
+      padding: 88px 0 100px;
+   }
+
+   @media (max-width: 464px) {
+      padding: 88px 0 83px;
+   }
+}
+
+.about-offer__container {
+   position: relative;
+   display: grid;
+   grid-template-columns: repeat(12, 1fr);
+   column-gap: 24px;
+   align-items: center;
+   justify-self: center;
+   padding: 80px 0;
+}
+
+.about-offer__content {
+   display: flex;
+   flex-direction: column;
+   gap: 56px;
+   justify-content: flex-start;
+   grid-column: 6 span;
+   padding: 40px 56px 40px 71px;
+
+   @media (max-width: 1400px) {
+      gap: 40px;
+      grid-column: 7 span;
+      padding: 0 0 0 45px;
+   }
+}
+
+.about-offer__title {
+   padding-right: 160px;
+
+   @media (max-width: 1400px) {
+      padding-right: 24px;
+   }
+}
+
+.about-offer__descr {
+   padding-right: 18px;
+   line-height: 1.545;
+
+   @media (max-width: 1400px) {
+      padding-right: 16px;
+   }
+}
+
+.about-offer__button-wrapper {
+   display: flex;
+   align-items: center;
+   justify-content: flex-start;
+}
+
+.about-offer__button {
+   display: flex;
+   flex-direction: row;
+   column-gap: 12px;
+   padding: 17px 24px 14px 31px;
+   font-weight: 500;
+   font-size: 20px;
+   line-height: 1.4;
+   cursor: pointer;
+}
+
+.about-offer__button--icon {
+   width: 32px;
+   height: 32px;
+   stroke: var(--black);
+}
+
+.about-offer__img-wrapper {
+   position: relative;
+   justify-self: center;
+   grid-column: 6 span;
+   width: 619px;
+   height: 474px;
+   margin-top: 40px;
+   margin-right: 24px;
+   border-radius: 72px 112px 0;
+   padding: 0 72px 0 212px;
+   background-color: #465976;
+
+   @media (max-width: 1400px) {
+      margin-right: 52px;
+      justify-content: flex-start;
+      grid-column: 5 span;
+      width: 397.338px;
+      height: 304.262px;
+   }
+}
+
+.about-offer__img {
+   position: absolute;
+   right: 19.7%;
+   bottom: 0%;
+   width: 389px;
+   height: 562px;
+
+   img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+   }
+
+   @media (max-width: 1400px) {
+      width: 249.7px;
+      height: 360.749px;
+   }
+}
+
+.about-offer__girl-img {
+   position: absolute;
+   top: 25.4%;
+   right: 33.2%;
+   width: 225.87px;
+   height: 159.873px;
+
+   @media (max-width: 1400px) {
+      top: 33.4%;
+      right: 30.3%;
+      width: 144.987px;
+      height: 102.623px;
+   }
+}
+
+.about-offer__storm-img {
+   position: absolute;
+   top: 18.9%;
+   right: 4%;
+   width: 215px;
+   height: 143px;
+
+   @media (max-width: 1400px) {
+      top: 28.5%;
+      right: 1.3%;
+      width: 138.009px;
+      height: 91.792px;
+   }
+}
+
+.about-offer__portraites-img {
+   position: absolute;
+   right: 4%;
+   bottom: 12.3%;
+   width: 310.004px;
+   height: 244.794px;
+
+   @media (max-width: 1400px) {
+      right: 1.3%;
+      bottom: 22.2%;
+      width: 198.99px;
+      height: 157.133px;
+   }
+}
