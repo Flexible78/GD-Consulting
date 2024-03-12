@@ -9,8 +9,8 @@
       padding: 88px 0 100px;
    }
 
-   @media (max-width: 464px) {
-      padding: 88px 0 83px;
+   @media (max-width: 580px) {
+      padding: 42px 0 83px;
    }
 }
 
@@ -46,6 +46,12 @@
       grid-column: 12 span;
       order: 2;
    }
+
+   @media (max-width: 580px) {
+      gap: 26px;
+      padding-left: 14.5px;
+      line-height: 1.6;
+   }
 }
 
 .about-offer__title {
@@ -53,6 +59,12 @@
 
    @media (max-width: 1400px) {
       padding-right: 24px;
+   }
+
+   @media (max-width: 580px) {
+      margin-top: 55px;
+      font-size: 34px;
+      line-height: 1.3;
    }
 }
 
@@ -63,6 +75,16 @@
    @media (max-width: 1400px) {
       padding-right: 16px;
    }
+
+   @media (max-width: 980px) {
+      font-size: 18px;
+   }
+
+   @media (max-width: 580px) {
+      line-height: 1.6;
+      font-size: 16px;
+      letter-spacing: 0;
+   }
 }
 
 .about-offer__button-wrapper {
@@ -72,6 +94,7 @@
 }
 
 .about-offer__button {
+   margin-top: 16.2px;
    display: flex;
    flex-direction: row;
    column-gap: 12px;
@@ -111,6 +134,18 @@
    @media (max-width: 980px) {
       grid-column: 12 span;
       order: 1;
+      width: 498.141px;
+      height: 381.452px;
+      margin-top: 3px;
+      margin-right: 17.1px;
+      border-radius: 28px 61px 0;
+   }
+
+   @media (max-width: 580px) {
+      width: 252.011px;
+      height: 192.978px;
+      margin-right: 6.1px;
+      padding: 0 72px 0 160px;
    }
 }
 
@@ -131,6 +166,16 @@
       width: 249.7px;
       height: 360.749px;
    }
+
+   @media (max-width: 980px) {
+      width: 313.048px;
+      height: 452.27px;
+   }
+
+   @media (max-width: 580px) {
+      width: 158.372px;
+      height: 228.805px;
+   }
 }
 
 .about-offer__girl-img {
@@ -145,6 +190,22 @@
       right: 30.3%;
       width: 144.987px;
       height: 102.623px;
+   }
+
+   @media (max-width: 980px) {
+      top: 9%;
+      left: 2.3%;
+      z-index: 15;
+      width: 181.771px;
+      height: 128.659px;
+   }
+
+   @media (max-width: 580px) {
+      top: 10%;
+      left: 4.7%;
+      z-index: 15;
+      width: 91.959px;
+      height: 65.089px;
    }
 }
 
@@ -161,6 +222,22 @@
       width: 138.009px;
       height: 91.792px;
    }
+
+   @media (max-width: 980px) {
+      top: 5.2%;
+      right: 3.5%;
+      z-index: 15;
+      width: 173.021px;
+      height: 115.079px;
+   }
+
+   @media (max-width: 580px) {
+      top: 7.9%;
+      right: 4.4%;
+      z-index: 15;
+      width: 87.532px;
+      height: 58.219px;
+   }
 }
 
 .about-offer__portraites-img {
@@ -175,5 +252,21 @@
       bottom: 22.2%;
       width: 198.99px;
       height: 157.133px;
+   }
+
+   @media (max-width: 980px) {
+      top: 25.9%;
+      right: 3.5%;
+      z-index: 15;
+      width: 249.472px;
+      height: 196.998px;
+   }
+
+   @media (max-width: 580px) {
+      top: 20.7%;
+      right: 4.5%;
+      z-index: 15;
+      width: 126.209px;
+      height: 99.662px;
    }
 }
