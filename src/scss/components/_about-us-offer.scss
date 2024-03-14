@@ -81,8 +81,8 @@
    }
 
    @media (max-width: 580px) {
-      line-height: 1.6;
       font-size: 16px;
+      line-height: 1.6;
       letter-spacing: 0;
    }
 }
@@ -94,10 +94,10 @@
 }
 
 .about-offer__button {
-   margin-top: 0px;
    display: flex;
    flex-direction: row;
    column-gap: 12px;
+   margin-top: 0;
    padding: 17px 24px 14px 31px;
    font-weight: 500;
    font-size: 20px;

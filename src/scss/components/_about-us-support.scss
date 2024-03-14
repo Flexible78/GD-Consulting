@@ -17,9 +17,9 @@
 }
 
 .about-support__card {
-   /* display: grid;
+   display: grid;
    grid-template-columns: repeat(7, 1fr);
-   align-self: start; */
+   align-self: start;
    /* grid-column: 6 span;
    max-height: 424px; */
    margin-left: 15px;
@@ -29,21 +29,15 @@
    background: var(--White, #fff);
 
    .about-support__title {
-      /*
       grid-column: 4 span;
-      */
 
       @media (max-width: 1351px) {
-         /*
          grid-column: 5 span;
-         */
       }
    }
 
    .about-support__text {
-      /*
       grid-column: 7 span;
-      */
       margin-top: 32px;
    }
 
@@ -59,7 +53,7 @@
    padding: 64px 91px 63px 80px;
 
    .about-support__title {
-      /* grid-column: 6 span; */
+      grid-column: 6 span;
 
       @media (max-width: 1351px) {
          /*   grid-column: 7 span; */
@@ -67,7 +61,7 @@
    }
 
    .about-support__text {
-      /*  grid-column: 7 span; */
+       grid-column: 7 span;
    }
 
    @media (max-width: 1351px) {
