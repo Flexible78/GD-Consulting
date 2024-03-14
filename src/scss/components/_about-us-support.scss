@@ -4,7 +4,8 @@
 
 .about-support__container {
    display: grid;
-
+   grid-auto-rows: 1fr;
+   /* grid-template-rows: repeat(auto-fit, 1fr); */
    /* grid-template-columns: repeat(auto-fit, 296px);
    column-gap: 24px; */
    grid-template-columns: repeat(auto-fit, calc(50% - 24px));
@@ -49,7 +50,7 @@
 
 .about-support__card--right {
    margin-right: 15px;
-   margin-left: 0px;
+   margin-left: 0;
    padding: 64px 91px 63px 80px;
 
    .about-support__title {
@@ -61,7 +62,7 @@
    }
 
    .about-support__text {
-       grid-column: 7 span;
+      grid-column: 7 span;
    }
 
    @media (max-width: 1351px) {

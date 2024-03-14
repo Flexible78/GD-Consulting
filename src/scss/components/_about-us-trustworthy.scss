@@ -1,0 +1,29 @@
+.about-trustworthy {
+   padding: 175px 0 100px;
+}
+
+.about-trustworthy__container {
+   display: grid;
+   grid-template-columns: repeat(auto-fill, calc(50% - 24px));
+   column-gap: 48px;
+   padding: 0 61px;
+}
+
+.about-trustworthy__title {
+   grid-column: 1/-1;
+   margin-bottom: 96px;
+}
+
+.about-trustworthy__card {
+   grid-column: 50%;
+   border: 2px solid #000;
+   border-radius: 48px;
+   padding: 64px 93px 64px 80px;
+   line-height: 1.545;
+   background: #ebf3ff;
+}
+
+.about-trustworthy__card--light {
+   padding: 64px 80px;
+   background: #f6f6f6;
+}
