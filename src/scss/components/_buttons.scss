@@ -12,9 +12,12 @@
    &--p17 {
       padding: 17px 32px;
 
+      @media (max-width: 980px) {
+         font-size: 20px;
+         line-height: 1.4;
+      }
+
       @media (max-width: 640px) {
-         /* padding: 17px 0; */
-         font-size: 18px;
          line-height: 1.55;
       }
 
@@ -35,6 +38,7 @@
    &--p25-send {
       border-radius: 40px;
       padding: 25px 0;
+
       @media (max-width: 330px) {
          padding: 26px 0;
       }
