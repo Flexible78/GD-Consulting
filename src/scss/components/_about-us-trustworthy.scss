@@ -7,11 +7,28 @@
    grid-template-columns: repeat(auto-fill, calc(50% - 24px));
    column-gap: 48px;
    padding: 0 61px;
+
+   @media (max-width: 1200px) {
+      grid-template-columns: repeat(auto-fill, calc(50% - 15px));
+      column-gap: 30px;
+      padding: 0 15px;
+   }
+
+   @media (max-width: 740px) {
+      grid-template-columns: 1fr;
+      row-gap: 30px;
+      padding: 0 15px;
+   }
 }
 
 .about-trustworthy__title {
    grid-column: 1/-1;
    margin-bottom: 96px;
+
+   @media (max-width: 1200px) {
+      margin-bottom: 50px;
+      padding-left: 30px;
+   }
 }
 
 .about-trustworthy__card {
@@ -21,6 +38,14 @@
    padding: 64px 93px 64px 80px;
    line-height: 1.545;
    background: #ebf3ff;
+
+   @media (max-width: 1200px) {
+      padding: 40px;
+   }
+
+   @media (max-width: 740px) {
+      padding: 30px;
+   }
 }
 
 .about-trustworthy__card--light {
