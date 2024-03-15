@@ -4,15 +4,13 @@
 
 .about-support__container {
    display: grid;
-   /* grid-auto-rows: 1fr; */
-   /* grid-template-rows: repeat(auto-fit, 1fr); */
-   /* grid-template-columns: repeat(auto-fit, 296px);
-   column-gap: 24px; */
    grid-template-columns: repeat(auto-fit, calc(50% - 24px));
    column-gap: 48px;
    padding: 0 61px;
 
    @media (max-width: 1351px) {
+      grid-template-columns: repeat(auto-fit, calc(50% - 15px));
+      column-gap: 30px;
       padding: 0 15px;
    }
 }
@@ -20,9 +18,6 @@
 .about-support__card {
    display: grid;
    grid-template-columns: repeat(7, 1fr);
-   align-self: start;
-   /* grid-column: 6 span;
-   max-height: 424px; */
    border: 1px solid #000;
    border-radius: 48px;
    padding: 64px 79px 130px 80px;
@@ -32,7 +27,8 @@
       grid-column: 4 span;
 
       @media (max-width: 1351px) {
-         grid-column: 5 span;
+         grid-column: 6 span;
+         padding-right: 20px;
       }
    }
 
@@ -54,7 +50,8 @@
       grid-column: 6 span;
 
       @media (max-width: 1351px) {
-         /*   grid-column: 7 span; */
+         grid-column: 7 span;
+         padding-right: 0px;
       }
    }
 

@@ -1,5 +1,8 @@
 .about-trustworthy {
    padding: 175px 0 100px;
+   @media (max-width: 1200px) {
+      padding: 200px 0 100px;
+   }
 }
 
 .about-trustworthy__container {
@@ -29,6 +32,10 @@
       margin-bottom: 50px;
       padding-left: 30px;
    }
+
+   @media (max-width: 330px) {
+      font-size: 34px;
+   }
 }
 
 .about-trustworthy__card {
@@ -40,11 +47,14 @@
    background: #ebf3ff;
 
    @media (max-width: 1200px) {
-      padding: 40px;
+      padding: 40px 38px 40px;
    }
 
    @media (max-width: 740px) {
       padding: 30px;
+   }
+
+   @media (max-width: 330px) {
    }
 }
 
