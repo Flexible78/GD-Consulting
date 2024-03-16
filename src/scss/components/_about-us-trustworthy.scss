@@ -10,7 +10,7 @@
    }
 
    @media (max-width: 580px) {
-      padding: 90px 0 100px;
+      padding: 175px 0 0;
    }
 }
 
@@ -78,4 +78,7 @@
 .about-trustworthy__card--light {
    padding: 64px 80px;
    background: #f6f6f6;
+   @media (max-width: 580px) {
+      padding: 28.2px 30px 57px 28.6px;
+   }
 }
