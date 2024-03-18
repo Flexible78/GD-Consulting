@@ -98,16 +98,17 @@
          height: 320px;
          padding-top: 58px;
       }
+
       @media (max-width: 530px) {
-         left: 24%;
          top: 62.4%;
+         left: 24%;
          height: 300px;
          rotate: (90deg);
       }
 
       @media (max-width: 330px) {
-         left: 50%;
          top: 62.4%;
+         left: 50%;
          height: 300px;
          rotate: (90deg);
       }

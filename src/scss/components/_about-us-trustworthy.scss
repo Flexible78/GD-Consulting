@@ -16,13 +16,11 @@
 
 .about-trustworthy__container {
    display: grid;
-  /*  grid-template-columns: repeat(auto-fill, calc(50% - 24px)); */
    grid-template-columns: repeat(2, 1fr);
    column-gap: 48px;
    padding: 0 61px;
 
    @media (max-width: 1200px) {
-    /*   grid-template-columns: repeat(auto-fill, calc(50% - 15px)); */
       column-gap: 30px;
       padding: 0 15px;
    }
@@ -78,6 +76,7 @@
 .about-trustworthy__card--light {
    padding: 64px 80px;
    background: #f6f6f6;
+
    @media (max-width: 580px) {
       padding: 28.2px 30px 57px 28.6px;
    }

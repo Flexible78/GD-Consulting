@@ -19,10 +19,12 @@
          --font-size: 80px;
          --line-height: 1.4;
       }
+
       @media (max-width: 640px) {
          --font-size: 60px;
          --line-height: 1.6;
       }
+
       @media (max-width: 330px) {
          --font-size: 42px;
          --line-height: normal;
@@ -40,6 +42,7 @@
          font-size: 37px;
          line-height: normal;
       }
+
       @media (max-width: 510px) {
          font-size: 34px;
          line-height: normal;

@@ -1,0 +1,146 @@
+.about-contacts {
+   padding-top: 120px;
+   padding-bottom: 211px;
+
+   @media (max-width: 1200px) {
+      padding-top: 150px;
+      padding-bottom: 252px;
+   }
+
+   @media (max-width: 980px) {
+      padding-top: 56px;
+      padding-bottom: 98px;
+   }
+
+   @media (max-width: 330px) {
+      padding-top: 50px;
+      padding-bottom: 87.7px;
+   }
+}
+
+.about-contacts__container {
+   display: flex;
+   flex-direction: column;
+   row-gap: 80px;
+
+   @media (max-width: 1200px) {
+      row-gap: 50px;
+   }
+
+   @media (max-width: 980px) {
+      row-gap: 27px;
+   }
+
+   @media (max-width: 330px) {
+      row-gap: 40px;
+   }
+}
+
+.about-contacts__bg-img {
+   width: 2560px;
+   height: 350px;
+
+   @media (max-width: 1200px) {
+      transform: translateX(-4px) translateY(31px) scale(1.6);
+   }
+
+   @media (max-width: 980px) {
+      display: none;
+   }
+}
+
+.about-contacts__title {
+   margin-top: 56px;
+   text-align: center;
+
+   @media (max-width: 1200px) {
+      margin-top: 55px;
+   }
+
+   @media (max-width: 980px) {
+      margin-top: 34px;
+      font-size: 34px;
+   }
+
+   @media (max-width: 330px) {
+      margin-top: 40px;
+      line-height: normal;
+      text-align: left;
+   }
+}
+
+.about-contacts__icon {
+   width: 36px;
+   height: 36px;
+
+   &--mail {
+      width: 30px;
+      height: 30px;
+   }
+}
+
+.about-contacts__buttons-block {
+   display: flex;
+   column-gap: 32px;
+   align-items: center;
+   justify-content: center;
+
+   .buttons-block__btn {
+      display: flex;
+      column-gap: 12px;
+      align-items: center;
+      justify-content: center;
+      font-weight: 500;
+      font-size: 22px;
+      line-height: 1.27;
+      color: var(--white);
+
+      @media (max-width: 1200px) {
+         margin-top: 10px;
+      }
+
+      @media (max-width: 330px) {
+         margin-top: 0;
+      }
+   }
+
+   @media (max-width: 980px) {
+      flex-direction: column;
+      row-gap: 26px;
+      align-items: stretch;
+   }
+
+   @media (max-width: 640px) {
+      row-gap: 21.7px;
+   }
+
+   @media (max-width: 330px) {
+      row-gap: 31.7px;
+   }
+}
+
+.about-contacts__descr {
+   margin: -27px auto 0;
+   font-size: 22px;
+   line-height: 1.545;
+   text-align: center;
+
+   @media (max-width: 1200px) {
+      margin: 8px auto 0;
+   }
+
+   @media (max-width: 980px) {
+      margin-top: 0;
+      font-size: 18px;
+      line-height: 1.6;
+      letter-spacing: 0.36px;
+      text-align: left;
+   }
+
+   @media (max-width: 330px) {
+      margin-top: 0;
+      font-size: 16px;
+      letter-spacing: 0.32px;
+      text-align: left;
+   }
+}
