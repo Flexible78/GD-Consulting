@@ -132,16 +132,15 @@
    @media (max-width: 1400px) {
       justify-content: flex-start;
       grid-column: 5 span;
-      margin-top: 140.8px;
+      margin-top: 152px;
       margin-left: -73.5px;
    }
 
    @media (max-width: 980px) {
       grid-column: 12 span;
       order: 1;
-      margin-top: 108px;
-      margin-left: 2.9px;
-      border-radius: 28px 42px 28px 0;
+      margin-top: 115px;
+      margin-left: 28.9px;
    }
 
    @media (max-width: 580px) {
@@ -158,84 +157,78 @@
    @media (max-width: 1400px) {
       width: 434px;
       height: 307px;
-
    }
 
    @media (max-width: 980px) {
       width: 426.398px;
-      height: 301.974px;
-
-      /*  margin-top: 108px;
-      margin-left: 2.9px; */
-      border-radius: 28px 42px 28px 0;
+      height: 303.974px;
+      border-radius: 28px 0 28px 42px;
    }
 
    @media (max-width: 580px) {
       width: 248.639px;
       height: 176.085px;
-
-      /*  margin-top: 81px;
-      margin-right: 6.1px; */
    }
 }
 
 .consulting-hero__paper-img {
    position: absolute;
-   top: 7.6%;
-   right: 36.2%;
+   top: -21.5%;
+   right: 76.9%;
    z-index: 15;
    width: 234.864px;
    height: 250.233px;
 
    @media (max-width: 1400px) {
-      top: 8.7%;
-      right: 36%;
-      width: 119.425px;
-      height: 133.496px;
+      top: -10%;
+      right: 71.3%;
+      width: 158.425px;
+      height: 157.496px;
    }
 
    @media (max-width: 980px) {
-      top: 18.5%;
-      left: 4.3%;
+      top: -26.5%;
+      left: -22.7%;
       z-index: 15;
-      width: 135.754px;
-      height: 151.418px;
+      width: 170.754px;
+      height: 196.418px;
    }
 
    @media (max-width: 580px) {
-      top: 17.1%;
-      left: 4.4%;
+      top: -23.5%;
+      left: -15.1%;
       z-index: 15;
-      width: 75.142px;
-      height: 83.812px;
+      width: 93.142px;
+      height: 108.512px;
+      border-radius: 28px 0 28px 42px;
    }
 }
 
 .consulting-hero__tax-img {
    position: absolute;
-   top: 7.3%;
-   right: 8.1%;
-   z-index: -1;
+   top: -23.5%;
+   right: -11.4%;
+   z-index: -5;
    width: 210.327px;
    height: 269.901px;
 
    @media (max-width: 1400px) {
-      top: 7.9%;
-      right: 4.2%;
+      top: -15.5%;
+      right: -8.6%;
       width: 129.47px;
       height: 166.567px;
    }
 
    @media (max-width: 980px) {
-      top: 17.8%;
-      right: 4.7%;
+      top: -25.3%;
+      right: -16.6%;
       width: 147.286px;
       height: 188.998px;
    }
 
    @media (max-width: 580px) {
-      top: 16.7%;
-      right: 4.5%;
+      top: -22.3%;
+      right: -5.8%;
       width: 81.523px;
       height: 104.613px;
    }
@@ -243,30 +236,30 @@
 
 .consulting-hero__case-img {
    position: absolute;
-   top: 18.5%;
-   right: 9%;
+   right: -8.4%;
+   bottom: -11%;
    z-index: 15;
    width: 257px;
    height: 191.999px;
 
    @media (max-width: 1400px) {
-      top: 17.6%;
-      right: 5%;
+      right: -0.3%;
+      bottom: 22.2%;
       width: 158.201px;
       height: 118.491px;
    }
 
    @media (max-width: 980px) {
-      top: 27.2%;
-      right: 10%;
+      right: -8.4%;
+      bottom: -19%;
       z-index: 15;
       width: 179.967px;
       height: 134.448px;
    }
 
    @media (max-width: 580px) {
-      top: 22.3%;
-      right: 6.4%;
+      right: -3.2%;
+      bottom: -16.2%;
       z-index: 15;
       width: 99.614px;
       height: 74.419px;
