@@ -45,9 +45,9 @@
    }
 
    @media (max-width: 980px) {
-      font-size: 20px;
       align-items: unset;
       padding: 0;
+      font-size: 20px;
    }
 
    @media (max-width: 580px) {
@@ -183,30 +183,30 @@
 
 .services-hero__calc-img {
    position: absolute;
-   top: 9.3%;
-   right: 36.2%;
+   top: -13.5%;
+   left: -9.4%;
    z-index: 15;
    width: 196.001px;
    height: 202px;
 
    @media (max-width: 1400px) {
-      top: 8.7%;
-      right: 36%;
+      top: -10.5%;
+      left: -9.4%;
       width: 139.276px;
       height: 143.54px;
    }
 
    @media (max-width: 980px) {
-      top: 18.5%;
-      left: 4.3%;
+      top: -15.1%;
+      left: -17.1%;
       z-index: 15;
       width: 137.008px;
       height: 141.201px;
    }
 
    @media (max-width: 580px) {
-      top: 17.1%;
-      left: 4.4%;
+      top: -15.9%;
+      left: -9.9%;
       z-index: 15;
       width: 79.892px;
       height: 82.336px;
@@ -215,29 +215,29 @@
 
 .services-hero__paper-img {
    position: absolute;
-   top: 8.4%;
-   right: 8.1%;
-   z-index: 5;
+   top: -19.6%;
+   right: -11.1%;
+   z-index: -5;
    width: 210.004px;
    height: 270.003px;
 
    @media (max-width: 1400px) {
-      top: 7.9%;
-      right: 4.2%;
+      top: -15.4%;
+      right: -10.8%;
       width: 149.231px;
       height: 191.86px;
    }
 
    @media (max-width: 980px) {
-      top: 17.8%;
-      right: 4.7%;
+      top: -22.7%;
+      right: -18.7%;
       width: 146.792px;
       height: 188.736px;
    }
 
    @media (max-width: 580px) {
-      top: 16.7%;
-      right: 4.5%;
+      top: -22.5%;
+      right: -10.9%;
       width: 85.597px;
       height: 110.054px;
    }
@@ -245,30 +245,30 @@
 
 .services-hero__calend-img {
    position: absolute;
-   top: 22%;
-   right: 9%;
+   right: -8.1%;
+   bottom: -1.8%;
    z-index: 15;
    width: 232.001px;
    height: 160.001px;
 
    @media (max-width: 1400px) {
-      top: 17.6%;
-      right: 5%;
+      right: -8.1%;
+      bottom: 18.8%;
       width: 164.861px;
       height: 113.696px;
    }
 
    @media (max-width: 980px) {
-      top: 27.2%;
-      right: 10%;
+      right: -11%;
+      bottom: -18.3%;
       z-index: 15;
       width: 162.171px;
       height: 111.842px;
    }
 
    @media (max-width: 580px) {
-      top: 22.3%;
-      right: 6.4%;
+      right: -8.1%;
+      bottom: -18.7%;
       z-index: 15;
       width: 94.564px;
       height: 65.217px;
